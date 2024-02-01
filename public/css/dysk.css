@@ -1,0 +1,204 @@
+.login-form-1{
+    padding-top: 1%;
+    margin-right: 0;
+}
+.login-form-1 h2{
+    text-align: center;
+}
+.login-form-1 h4{
+    text-align: center;
+}
+.login-form-1 hr{
+    border: 1px solid #000;
+}
+.login-form-2{
+    min-width: max-content;
+    background: #0062cc;
+    padding-top: 1%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+}
+.btn-blue{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    width: max-content;
+    margin-right: auto;
+    display: flex;
+    border-radius: 1rem;
+    padding: 5%;
+    border: none;
+    cursor: pointer;
+}
+.select-blue{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    width: max-content;
+    border-radius: 1rem;
+    padding: 4%;
+    border: none;
+    cursor: pointer;
+
+}
+.select-blue:hover{
+    cursor: pointer;
+    background-color: #0042cc;
+
+}
+.select-blue:hover{
+    cursor: pointer;
+    background-color: #0042cc;
+}
+.select-white{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+    width: max-content;
+    border-radius: 1rem;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+}
+
+.sorting>h6{
+}
+.login-form-2 h4{
+    color: white;
+}
+.btn{
+    font-weight: 600;
+    color: #0062cc;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    width: max-content;
+    margin-top: 10%;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-container>.row{
+    height: 100%;
+    width: 100%;
+}
+.sorting{
+    text-align: right;
+}
+
+.col-lg-10>.row{
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.col-md-3>img{
+    max-width: 100%;
+}
+.col-md-3{
+    text-align: center;
+}
+.col-md-3:hover{
+    background-color: #eee;
+}
+.link:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.option{
+    margin: auto;
+    text-align: center;
+    color: white;
+    width: 90%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-bottom: 4px;
+}
+.option:hover{
+    background-color: #0042cc;
+    cursor: pointer;
+    border-bottom: 1px solid #000;
+}
+.head{
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 4%;
+}
+.gallery>img:hover{
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1140px){
+    .navbar{
+        display: none;
+    }
+    .collapse-show{
+        display: none;
+    }
+}
+@media screen and (max-width: 1140px){
+    .login-form-2>h4{
+        font-size: 30px;
+    }
+    .login-form-2>form{
+        margin-bottom: 0;
+    }
+    .btn{
+        font-size: 25px;
+        margin-top: 0;
+    }
+    .head{
+        font-size: 25px;
+    }
+    .option{
+        padding-top: 4%;
+        padding-bottom: 4%;
+        margin-bottom: 0;
+        font-size: 25px;
+    }
+    .navbar{
+        background-color: #0062cc;
+    }
+    .col-xl-2{
+        display: none;
+    }
+    .col-xl-2{
+        padding-right: 0;
+    }
+    .col-xl-10{
+        margin-right: 0;
+    }
+    .container-fluid{
+        margin-right: 0;
+        padding: 0;
+    }
+    .login-container>.row{
+        margin: 0;
+    }
+}
